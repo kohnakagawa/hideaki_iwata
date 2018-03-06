@@ -11,7 +11,7 @@ branches:
 before_install:
   - sudo add-apt-repository ppa:kelleyk/emacs
   - sudo apt-get update
-  - sudo apt-get install emacs25
+  - sudo apt-get -y install emacs25
   - cd src
   - make clean
 
