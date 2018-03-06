@@ -1,0 +1,16 @@
+sudo:
+  - required
+
+os:
+  - linux
+
+branches:
+  only:
+    - master
+
+before_install:
+  - sudo apt install emacs
+
+install:
+  - cd src
+  - make
