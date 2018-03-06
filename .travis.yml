@@ -10,6 +10,7 @@ branches:
 
 before_install:
   - sudo apt install emacs
+  - make clean
 
 install:
   - cd src
