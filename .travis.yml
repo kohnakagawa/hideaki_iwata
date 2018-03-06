@@ -9,7 +9,9 @@ branches:
     - master
 
 before_install:
-  - sudo apt install emacs
+  - sudo add-apt-repository ppa:kelleyk/emacs
+  - sudo apt-get update
+  - sudo apt-get install emacs25
   - cd src
   - make clean
 
